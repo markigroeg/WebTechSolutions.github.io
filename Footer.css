@@ -1,0 +1,42 @@
+.footer {
+    margin-top: 100px;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    /* text-align: center;*/
+  }
+  
+  .footer-content {
+    max-width: 960px; /* Limit the width of the content */
+    margin: 0 auto; /* Center the content horizontally */
+    display: flex; /* Use flexbox */
+    justify-content: center; /* Align items horizontally at the center */
+    align-items: center; /* Align items vertically at the center */
+  }  
+  
+  .footer p {
+    margin: 0;
+  }
+  
+  #footer-links {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 10px;
+    text-align: center; /* Center the links horizontally */
+    justify-content: right;
+    margin-left: 20px;
+  }
+
+  #footer-links li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  #footer-links a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  #footer-links a:hover {
+    text-decoration: underline;
+  }
